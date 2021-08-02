@@ -1,0 +1,46 @@
+﻿#q {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.container {
+    position: relative;
+    min-height: 100%;
+    height: 100%;
+}
+
+.container footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+    
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+    .qform {
+        padding-top: 2.5em;
+    }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    .qform {
+        padding-top: 5em;
+    }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+}

@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="lib/code.js"></script>
+    <script src="lib/azure.js"></script>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/skeleton.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+
+    <title>Rejestracje PL</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Rejestracje PL</h1>
+        </header>
+        <form class="qform">
+            <div class="row">
+                <div class="two columns"></div>
+                <div class="six columns">
+                    <input type="search" name="q" id="q"
+                           placeholder="Podaj numer rejestracyjny"
+                           class="u-full-width"
+                           autocomplete="off" />
+                </div>
+                <div class="two columns">
+                    <input type="submit" value="Szukaj" id="btnSearch" class="button-primary" />
+                </div>
+            </div>
+        </form>
+        <div id="result" class="row"></div>
+        <!--<section id="privacy">
+            <h6>Prywatność</h6>
+            <article>
+            </article>
+        </section>
+        <section id="pomoc">
+            <h6>Pomoc</h6>
+            <article>
+            </article>
+        </section>
+
+        <footer>
+            Prywatność Pomoc
+        </footer>-->
+    </div>
+</body>
+</html>
